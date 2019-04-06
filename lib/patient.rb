@@ -25,3 +25,5 @@ def doctors
   doctor.patient
   end
 end
+
+end
