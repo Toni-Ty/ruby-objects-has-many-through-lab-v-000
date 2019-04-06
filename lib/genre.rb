@@ -15,8 +15,8 @@ end
 
 def songs
   Song.all.select { |song| song.genre == self}
-  binding.pry
 end
+
 
 
 end
