@@ -26,4 +26,9 @@ def doctors
   end
 end
 
+# With the map method
+# def doctors
+#   appointments.map(&:doctor)
+# end
+
 end
