@@ -37,7 +37,8 @@ end
 
 
 def patients
-  Appointments.all.select { |patient| self.patient == patients}
+  Appointments.map.collect do |appointment|
+    appointment.patients
 end
 
 end
