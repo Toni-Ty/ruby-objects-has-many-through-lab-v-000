@@ -18,8 +18,8 @@ def songs
 end
 
 def artists
-  songs.all.collect do |artist|
-    artist.song
+  songs.all.collect do |song|
+    song.artist
   end
 end
 
