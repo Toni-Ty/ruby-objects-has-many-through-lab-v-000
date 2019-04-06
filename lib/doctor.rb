@@ -37,7 +37,7 @@ end
 
 
 def patients
-  Appointment.all.select { |appointment| doctor.patient == self }
+  Appointments.all.select { |patients| patients. == self }
 end
 
 end
