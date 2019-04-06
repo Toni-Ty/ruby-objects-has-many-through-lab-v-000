@@ -22,4 +22,22 @@ end
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+def patients
+  Appointment.all.select { |appointment| appointment.patient == patient}
+end
+
 end
