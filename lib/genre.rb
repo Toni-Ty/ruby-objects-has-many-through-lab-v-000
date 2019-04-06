@@ -18,7 +18,7 @@ def songs
 end
 
 def artists
-  Song.all.collect do |artist| 
+  Song.all.collect do |artist|
     song.artist == artist
   end
 end
