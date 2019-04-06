@@ -25,5 +25,3 @@ def doctors
   appointment.doctor
   end
 end
-
-
