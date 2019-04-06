@@ -1,3 +1,4 @@
+require 'pry'
 class Genre
 
 @@all = []
@@ -14,6 +15,7 @@ end
 
 def songs
   Song.all.select { |song| song.genre == self}
+  binding.pry
 end
 
 
