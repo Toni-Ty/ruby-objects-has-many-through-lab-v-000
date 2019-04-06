@@ -27,6 +27,11 @@ def genres
   end
 end
 
+# Using the map method
+# def genres
+#    songs.map(&:genre)
+#  end
+# end
 
 
 
