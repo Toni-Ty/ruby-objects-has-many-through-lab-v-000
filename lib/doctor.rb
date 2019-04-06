@@ -20,25 +20,10 @@ def appointments
   Appointment.all.select { |appointment| appointment.doctor == self}
 end
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 def patients
   Appointments.map.collect do |appointment|
     appointment.patients
+  end
 end
 
 end
