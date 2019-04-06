@@ -21,6 +21,7 @@ def appointments
 end
 
 def doctors
-  Appointments.all.select { |doctor| doctor.patient == doctor}
+  Appointments.collect.do |doctor|
+  doctor.patient
   end
 end
