@@ -23,4 +23,11 @@ def artists
   end
 end
 
+# With the map method
+# def artists
+#   songs.map(&:artist)
+# end
+
 end
+
+
