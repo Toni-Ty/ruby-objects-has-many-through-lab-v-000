@@ -18,7 +18,7 @@ def songs
 end
 
 def artists
-  Song.all.select { |artist| song.artist == artist} 
+  Song.all.select { |artist| song.artist == artist}
 end
 
 
