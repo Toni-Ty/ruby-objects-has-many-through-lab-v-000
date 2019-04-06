@@ -16,6 +16,8 @@ def new_appointment(patient, date)
   Appointment.new(patient, self, date)
 end
 
-
+def appointments
+  Appointment.all.select { |appointment| self.appointment == appointment}
+end
 
 end
