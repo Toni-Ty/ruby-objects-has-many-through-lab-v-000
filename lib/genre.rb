@@ -19,7 +19,7 @@ end
 
 def artists
   Song.all.collect do |artist|
-    song.artist
+    artist.song
   end
 end
 
